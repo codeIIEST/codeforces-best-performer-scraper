@@ -22,3 +22,7 @@ main.py uses the CF Contest Stadings API to get the results and then finds the r
 
 ### To add another user ID
  The ``` data.json ``` file can be edited to insert more names and their respective user Id.
+ 
+### Tools used
+- CSV to JSON ( https://www.convertcsv.com/csv-to-json.htm )
+- JSON editor ( https://jsoneditoronline.org/#left=local.zejeve )
