@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 from tabulate import tabulate
 
-CONTEST_ID = input('CONSTEST ID: ')
+CONTEST_ID = input('CONTEST ID: ')
 COUNT = 10000
 
 URL = "https://codeforces.com/api/contest.standings?contestId=" + (CONTEST_ID) + "&from=1&count=" + str(COUNT) + "&showUnofficial=false"
@@ -58,7 +58,7 @@ with open('data.json') as f:
 
     myFile = open("results.txt",'w')
     myFile.write(contestName + " Results: \n\n")
-    print(contestName + "Results: \n\n", end="")
+    print(contestName + " Results: \n\n", end="")
 
     myFile.write('='*len(contestName + "Results: "))
     print('='*len(contestName + "Results: "), end="")
