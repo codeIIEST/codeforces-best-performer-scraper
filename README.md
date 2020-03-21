@@ -21,13 +21,11 @@ addUser.py aids in appending (for the time being, more features will be updated 
   It will ask for the contest id. Contest ID for CodeForces contest is the number which you can find in the URL. 
   If the contest URL is ``` https://codeforces.com/contest/1326 ``` 
   Then the number 1326 is the contest ID. After you provide the contest ID it will take some time fecthing the data, and tabulating the results. The final ouput will be exported to the ``` results.txt ```
-  
-  
-  ``` $ python3 addUser.py ```
-  After providing the details the data.json file will be updated
-
+ 
 ### To add another user ID
- The ``` data.json ``` file can be edited to insert more names and their respective user Id.
+
+  ``` $ python3 addUser.py ```
+  After providing the details the data.json file will be updated and the new entry will be added.
  
 ### Tools used
 - CSV to JSON ( https://www.convertcsv.com/csv-to-json.htm )
