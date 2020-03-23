@@ -38,7 +38,7 @@ with open('data.json') as f:
             if user["handle"] == parsed["result"]["rows"][idx]["party"]["members"][0]["handle"]:
 
                 handlesTaken.append(user["handle"])
-                print(handlesTaken)
+                
 
                 currYear = user["year"]
                 if user["gender"] == "Female":
