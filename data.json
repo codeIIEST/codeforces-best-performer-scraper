@@ -406,13 +406,19 @@
             "name": "Vivek Kumar Maurya",
             "year": 3,
             "gender": "Male",
-            "handle": "Manwithhavan"
+            "handle": "Manwithavan"
         },
         {
             "name": "Suryansh Gupta",
             "year": 3,
             "gender": "Male",
             "handle": "suri_kumkaran"
+        },
+        {
+            "name": "Indranil Bit",
+            "year": 3,
+            "gender": "Male",
+            "handle": "ibit"
         }
     ]
 }
